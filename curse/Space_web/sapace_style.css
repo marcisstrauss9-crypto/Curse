@@ -1,0 +1,38 @@
+body {
+    color: #2C36A5;
+    text-align: center;
+    /*TEKSTA STILS*/
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    
+}
+.apply-btn{
+    padding: 5px 10px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    color: #2C36A5;
+    font-weight: bold;
+    
+}
+.vards{
+    text-decoration: underline 5px;
+}
+#mainLogo{
+    width: 150px;
+    mix-blend-mode: screen; /* Izdzēš melno/balto fonu */
+    filter: invert(1);       /* Apgriež melno tekstu uz baltu */
+    
+}
+#hero{
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTg3d3N5OGlsaXJ5Z3dzMm9iNm1vanNpM3J1d2loOHczdDlwa2tkNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YOAqV6wRGOEVM48svy/giphy.gif");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+
+}
+h1{
+    text-shadow: 3px 3px 3px black;
+}

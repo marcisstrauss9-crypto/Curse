@@ -1,0 +1,28 @@
+.main{
+   margin-top: 100px; 
+}
+
+.google-img{
+    width:300px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-input{
+    width: 400px;
+    line-height: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid rgb(8, 8, 8);
+    border-radius: 24px;
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
