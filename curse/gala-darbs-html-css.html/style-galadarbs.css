@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background: linear-gradient(#495db5, #aef4f4)
+
+}
+.main {
+    width: 100%;
+    min-height: 300px; /* Nodrošina, ka bilde būs VAZMAZ 300px, bet var izplesties, ja tekstam vajag vietu */
+    background-image: url("https://www.sellingtravel.co.uk/wp-content/uploads/2025/07/RIGA-MAIN.png");
+    background-size: cover;
+    background-position: center; /* Bilde vienmēr turēsies centrā, pat ja logs kļūst šaurs */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Lai virsraksts un teksts uz mazāka ekrāna glīti noceņtrējas */
+    padding: 0 20px; /* Neļauj tekstam pieskarties ekrāna malām */
+    box-sizing: border-box;
+}
+.topText{
+    margin-top: 5px;
+    background-color: #495db5;
+    padding: 10px;
+    border-radius: 20px;
+}
+.infoBox {
+    display: flex;
+    justify-content: center; /* Noceņtrē kārbiņas */
+    flex-wrap: wrap; /* BŪTISKI: Lejupielādē elementus nākamajā rindā, ja trūkst vietas */
+    gap: 20px; /* Padara atstarpes starp kārbiņām vienmērīgas */
+    margin: 40px 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 280px; /* Fiksēts platums katrai kārbiņai, lai tās neizkropļojas */
+    text-align: center;
+}
+.infoimg{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+.guideBox {
+    background: linear-gradient(#495db5, #8397ee);
+    display: flex;
+    align-items: center;
+    width: 90%; /* Uz maza ekrāna aizņems 90% no platuma */
+    max-width: 400px; /* Bet nekad nebūs platāka par 400px */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    box-sizing: border-box; /* Nodrošina, ka padding nepalielina kopējo kārbiņas platumu */
+}
+#guideimg{
+    width: 100px;
+    height: 150px;
+    margin-right: 20px;
+}
+.guideText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

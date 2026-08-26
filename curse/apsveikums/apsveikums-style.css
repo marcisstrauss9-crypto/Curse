@@ -1,0 +1,53 @@
+#gif-kaste{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#giftcover1, #giftcover2, #giftcover3 {
+  width: 250px;
+  height: 250px;
+  border: 5px solid rgb(252, 0, 0);
+  border-radius: 50%;
+  margin-top: 25px;
+  background-image: url("https://kitsters.in/cdn/shop/files/giftwrap.png?v=1706943797");
+  background-size: cover;
+}
+
+
+.virsstraksts , .hint{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(60, 149, 209);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  color: red;
+  text-shadow: 0px 0px 3px;
+}
+body{
+  background-color: rgb(137, 238, 238);
+}
+
+
+#giftcover1:hover {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/20/Euro_coins_and_banknotes_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original");
+}
+
+
+#giftcover2:hover {
+  background-image: url("https://www.darzaabc.lv/assets/images/pages/lauvmutites-viengadigas-vasaras-pukes.jpg");
+}
+
+
+#giftcover3:hover {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThjCuMAUzp7JGU0-zc60ETikKPyPg3DTPbg0umk_9Gcjfu6L2hyAXEIX0&s=10");
+}
+
+
+
+
+.davanas{
+  display: flex;
+  justify-content: space-between;
+  width: 850px;
+}
+
